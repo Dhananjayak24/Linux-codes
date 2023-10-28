@@ -1,0 +1,10 @@
+#Assignment 3 case 1
+#!/bin/bash
+admin="dakshith"
+read -p "Enter your name : " name
+if [ "$name" == "$admin" ]
+then
+echo "Hello administrator, Welcome!!"
+else
+echo "Hello Welcome $name"
+fi
