@@ -1,0 +1,12 @@
+#!/bin/bash
+#code to check whether a file is exist or not in the path
+files_list=("forloop.sh" "user_info.txt" "absent.txt")
+for file in ${files_list[@]}
+do
+	if [ -e $file ]
+	then
+	echo "$file exists in directory"
+	else
+	echo "$file doesnt exist in directory"
+	fi
+done
