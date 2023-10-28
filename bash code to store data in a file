@@ -1,0 +1,7 @@
+#Assignment 3 case 2
+#!/bin/bash
+read -p "Enter your name : " name
+read -p "Enter your age in years : " age
+read -p "Enter your favourite colour : " colour
+echo "Name : $name, Age : $age, Favourite colour : $colour" > user_info.txt
+echo "Created user_info file successfully!"
